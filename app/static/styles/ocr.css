@@ -1,0 +1,325 @@
+/*
+        --------------------------------------------- COMMON COMPs------------------------------------------ 
+	background-color:#e0e0e0;
+	color:rgb(87, 85, 85);
+		font-family:'Open Sans', sans-serif;
+
+			box-shadow:  4px 4px 6px 0 rgba(0, 0, 0, 0.25),-4px -5px 12.5px 0 rgba(255, 255, 255, 0.8);
+
+		box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+
+		heading color : color:  rgb(41, 40, 40);
+		
+		normal font color : color:rgb(85, 84, 84);
+		
+*/
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*NAVIGATION BAR*/
+
+.navbar-brand
+{
+	color:rgb(87, 85, 85);
+	margin-left: 0rem;
+	font-weight: bolder;
+}
+.nav-link
+{
+	color:rgb(87, 85, 85);
+	
+}
+.nav-link:hover
+{
+	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/*BACKGROUND*/
+
+.body 
+{
+
+	background-color:#e0e0e0;
+	color:rgb(85, 84, 84);
+	margin-left: 0%;
+	margin-right: 0%;
+	max-width: 100%;
+    overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font: weight 300px;
+	word-spacing: 5px;
+}
+
+@media screen and (max-width:600px)
+{
+	.body
+	{
+		max-width: 100%;
+        overflow-x: hidden;
+	}
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/*HEADING  NAME*/
+.name
+{
+	font-family: 'Molengo', sans-serif;
+	letter-spacing: 1px;
+	color:  rgb(41, 40, 40);
+	margin-top: 6rem;
+	
+}
+
+@media screen and (max-width:600px)
+ {
+	 .name{
+		margin-top: 0rem;
+		
+	 }
+	
+}
+.defin
+{
+	word-spacing: 5px;
+}
+.sizeof
+{
+	font-size: 1.1rem;
+}
+.floatlogo
+{
+	margin-top: 3rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*FLOATING IMAGE*/
+.float
+{  
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, 0px); }    
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/*INPUT FORM*/
+
+.aufl
+{
+	font-weight: bold;;
+}
+.files
+{
+    color:rgb(95, 93, 93);
+    display: inline-block;
+	padding: 0.1px;
+	border-radius: 10px;
+	background-color: #e0e0e0;	
+	box-shadow:  4px 4px 6px 0 rgba(0, 0, 0, 0.25),-4px -5px 12.5px 0 rgba(255, 255, 255, 0.8);
+	
+}
+.files:hover
+{
+	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+	transition: all 0.5s;
+}
+::-webkit-file-upload-button
+{
+	color:rgb(255, 255, 255);
+	background-color: rgb(85, 83, 82);
+	padding: 15px;
+	border-radius: 0px;
+	border-style: none;
+	outline-color: none	;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*REMOVE BUTTON*/
+.rmbtn
+{
+	background-color:#e0e0e0;
+	color:rgb(228, 34, 34);
+	font-weight: bold;
+	border-radius: 10px;
+	border-style:none;
+	padding-left:30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow:  4px 4px 6px 0 rgba(0, 0, 0, 0.25),-4px -5px 12.5px 0 rgba(255, 255, 255, 0.8);
+	
+}
+.rmbtn:hover
+{
+	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+.rmbtn:focus
+{
+	outline: none;
+	
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/* SUBMIT BUTTON*/
+.subtn
+{
+	background-color:#e0e0e0;
+	color: rgb(58, 70, 238);
+	font-weight: bold;
+	border-style: none;
+	padding-left:30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	box-shadow:  4px 4px 6px 0 rgba(0, 0, 0, 0.25),-4px -5px 12.5px 0 rgba(255, 255, 255, 0.8);
+}
+.subtn:hover
+{
+	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*TEXTAREA*/
+.color
+{
+	background-color:#e0e0e0;
+	color:rgb(87, 85, 85);
+	font-family:'Open Sans', sans-serif;
+	font-weight: 100;
+	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	border-style: none;
+}
+.color:focus
+{
+	outline: none;
+	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+	background-color:#e0e0e0;
+	color:rgb(87, 85, 85);
+}
+@media only screen and (max-width: 600px) 
+{
+	.color
+	{
+		height: 220px;
+		width: 280px;
+	}
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/*SAVE AS BUTTON*/
+.saveas
+{
+	font-weight: bold;
+	color:  rgb(41, 40, 40);
+}
+.textfile
+{
+	font-weight: bold;
+	border-style: none;
+	padding-left:30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10%;
+	background-color:#e0e0e0;
+	color:rgb(87, 85, 85);
+	box-shadow:  4px 4px 6px 0 rgba(0, 0, 0, 0.25),-4px -5px 12.5px 0  rgba(255, 255, 255, 0.8);
+}
+.textfile:hover
+{
+	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+.icon1
+{
+	height: 30px;
+	width: 30px;
+}
+.wordfile
+{
+	font-weight: bold;
+	border-style: none;
+	padding-left:30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10%;
+	background-color:#e0e0e0;
+	color:rgb(78, 71, 184);
+	box-shadow:  4px 4px 6px 0 rgba(0, 0, 0, 0.25),-4px -5px 12.5px 0 rgba(255, 255, 255, 0.8);
+}
+.wordfile:hover
+{
+	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*three column layout*/
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+.column
+{
+	float: left;
+    width: 33.33%;
+	padding:25px; 
+	text-align: center;
+}
+.row-2:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+.column-2
+{
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 25px;
+}
+
+/* 	ICONS IN THAT AREA */
+
+.circular--square 
+{
+	border-radius: 50%;
+	padding: 18px 18px 18px 18px;
+	box-shadow:  4px 4px 6px 0 rgba(0, 0, 0, 0.25),-4px -5px 12.5px 0 rgba(255, 255, 255, 0.8);
+}
+  
+@media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+}
+.ocr
+{
+	text-align: center;
+}
+p
+{
+	font-weight: bold;
+	color:  rgb(41, 40, 40);
+}
