@@ -13,7 +13,7 @@ from tesserocr import PyTessBaseAPI
 
 @csrf_exempt
 class OcrFormView(TemplateView):
-    template_name = 'Ocr.html'
+    template_name = 'index.html'
 
 def index(request, *args, **kwargs):
     if request.method == 'POST':
@@ -26,5 +26,5 @@ def index(request, *args, **kwargs):
             
     else:
         img = OcrForm()
-    return render(request, "Ocr.html", {"form":img})
+    return render(request, "index.html", {"form":img})
 
